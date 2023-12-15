@@ -1,0 +1,120 @@
+body{
+    color: rgb(70, 41, 40);
+    background-color: rgb(243, 230, 226);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.subhead::first-letter{
+    initial-letter: 2;
+    font-weight: bold;
+    margin-right: .75em;
+}
+
+/* This is the navigation area */
+.Travel{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Nav-bar a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    overflow: hidden;
+}
+
+.active{
+    font-weight: bolder;
+    color: rgb(70, 41, 40);
+}
+
+.post{
+    color:antiquewhite;
+}
+
+.posted{
+text-align: center;
+font-size: 15px;
+background-color: rgb(58, 32, 28);
+}
+
+.below{
+    background-color: rgb(58, 32, 28);
+    height: 200px;
+}
+
+.below i{
+    color:aliceblue;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper{display: inline-flex;}
+
+.click{
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgb(58, 32, 28);
+    width: 40px;
+    height: 40px;
+}
+
+.click:hover{
+    background-color: rgb(58, 32, 28);
+    color: rgb(243, 230, 226);
+}
+
+.next{
+    background-color: rgb(58, 32, 28);
+    border: 2px solid rgb(58, 32, 28);
+    float: right;
+    color: rgb(243, 230, 226);
+    width: max-content;
+}
+
+.button{
+    margin: auto;
+    margin-left: 50%;
+    width: 40%;
+    padding: 60px;
+}
+
+.photo{
+    width: 400px;
+    height: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.logo{
+    font-size: 24px;
+    float: right;
+}
+
+.Information{
+    Width: 300px;
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: rgb(94, 57, 49);
+}
+
+.footer .social a{
+font-size: 24px;
+color: inherit;
+border: 1px solid white;
+width: 40px;
+height: 40px;
+line-height: 38px;
+display: inline-block;
+}
