@@ -11,23 +11,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link>
 </head>
+<section class="main">
 <body>
-    <div class="Nav-bar">
+    <header>
         <span class="Travel">Traveller</span>
-        <a>Home</a>
-        <a class="active" href="blogspot.html">Blog</a>
-        <a>About</a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="blogspot.html" class="active">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>  
+    </header>
+ 
+   <!-- Publish date -->
+    <div class="Publish_date">
+        <p>
+            <div class="posted">Posted on</div> 12/14/2023 06:55 pm
+        </p>
     </div>
-    <div class="Publish date">
-        <p><div class="posted"><span class="post">Posted on</span></div> 12/14/2023</p>
-    </div>
+
     <h1>Florence is one of Italy's greatest gems</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamminim veniam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. 
+        Ut enim ad minim veniamminim veniam.</p>
+
+
     <!-- Image of Florence -->
-    <img src="images/Florence-Italy.webp" width="1250" height="600">
+    <img src="images/Florence-Italy.webp" width="1180" height="600">
+
+    <!-- Author information  -->
     <div class="information">
         <div class="wrapper">
-            <p>Written By <b>Ezio Auditore</b> Published on <b>08 Nov 2021</b></p>
+            <p>Written By <br>
+                <b>Ezio Auditore</b> 
+            </p>
+               <p>
+                Published on <br>
+                <b>08 Nov 2021</b>
+            </p> 
             <!-- Facebook, 'X', Linked In, Instagram Logos -->
             <div class="logo">
                 <i class="fa-brands fa-facebook"></i>
@@ -44,7 +66,6 @@
         <div class="caption">Santa maria de Fiore</div>
     </div>
 </div>
-    <section>
     <p class="subhead">
         <firstletter>S</firstletter>anta Maria del Fiore was built on the site of Florence's second cathedral dedicated to Saint Reparta;
         the first was Basillica di San Lorenzo di Firenze, the first building of which was consecrated as a church in 393 by St. 
@@ -71,7 +92,7 @@
         <p>The Palazzo Vecchio is the town hall of the city. This massive, Romanesque, crenellated fortress-palace is among the most impressive town halls of Tuscany. Overlooking the square with its copy of Michelangelo's David statue as well the gallery of statues in the adjacent Loggia dei Lanzi, it is one of the most significant public places in Italy, and it hosts cultural points and museums.</p>
 
 </div>
-   </section>
+</section>
    <!-- Buttons section -->
     <div class="button">
             <button class="click">1</button>
@@ -81,27 +102,23 @@
             <button class="next">Next <i class="fa-solid fa-arrow-right"></i></button>
     </div>
 <!-- Footer -->
-<section class="footer">
-    <div class="social">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
-        <ul class="list">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-        </ul>
-        <p class="copyright">
-            Copyright © 2021. All rights reserved | This is a template made by Abhijeet Gonsalves
-        </p>
-    </div>
-</section>
+<footer>
+    <ul class="socials">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li> <a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        |
+        <li><a href="#">About </a></li>
+        |
+        <li><a href="#">Blog</a></li>
+    </ul>
+  <p class="footer">Copyright © 2021. All rights reserved | This is a template made by Abhijeet Gonsalves</p>  
+</footer>
+
+
 </body>
 </html>

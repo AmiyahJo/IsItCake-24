@@ -3,6 +3,9 @@ body{
     background-color: rgb(243, 230, 226);
     font-family: 'Varela Round', sans-serif;
 }
+.main{
+    padding: 20px 3%;
+}
 
 .subhead::first-letter{
     initial-letter: 2;
@@ -11,37 +14,67 @@ body{
 }
 
 /* This is the navigation area */
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+    /* padding: 20px 0.5%;  */
+}
 .Travel{
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 20px;
-    padding: 14px 16px;
     text-decoration: none;
 }
-
-.Nav-bar a{
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    float: right;
-    overflow: hidden;
+.nav_links {
+    list-style: none;
+  
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    color: darkgray;
+    text-decoration: none; 
 }
 
-.active{
+.nav_links .active li a{
     font-weight: bolder;
     color: rgb(70, 41, 40);
 }
-
-.post{
-    color:antiquewhite;
+/* Submission date */
+.Publish_date{
+ font-size: 9.5px;   
+ display: inline-flex;
+ /* padding: 16px; */
 }
 
 .posted{
+margin-right: 9px;
+color:antiquewhite;
 text-align: center;
-font-size: 15px;
+vertical-align: middle; 
 background-color: rgb(58, 32, 28);
-border-radius: 3px;
-width: 90px;
-height: 20px;
+border-radius: 4px;
+width: 65.5px;
+height: 12.5px;
+}
+
+/* Author info and social media */
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 3%; */
+}
+
+.information p{
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    float: right;
 }
 
 .below{
@@ -87,7 +120,7 @@ height: 20px;
 
 .photo{
     width: 400px;
-    height: 100%;
+    height: 50%;
 }
 
 .left{
@@ -98,42 +131,71 @@ height: 20px;
     float: right;
 }
 
-.logo{
-    font-size: 24px;
-    float: right;
-}
-
-.Information{
-    Width: 300px;
-}
-
-.footer{
-    padding: 40px 0;
-    background-color: rgb(94, 57, 49);
-}
-
-.footer .social a{
-font-size: 24px;
-color: inherit;
-border: 1px solid white;
-width: 40px;
-height: 40px;
-line-height: 38px;
-display: inline-block;
+.item{
+    width: fit-content;
+    min-height: min-content;
 }
 .polaroid {
     background: #fff;
     padding: 1rem;
-    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
   }
-  .polaroid > img {
-    max-width: 100%;
-    height: auto;
-  }
+  .polaroid img {
+    max-width: 100%; 
+    margin-bottom: 25px;
+  } 
+
   .caption {
     font-size: 1.8rem;
     text-align: center;
     line-height: 2em;
   }
+/* Footer Area */
+  footer{
+    position: relative;
+    background-color: rgb(63, 46, 42);
+    min-height: 100px;
+    padding: 20px 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer .socials, 
+  footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 10px 0; 
+    flex-wrap: wrap;
+  }
+footer .socials li,
+footer .menu li{
+    list-style: none;
+}
+footer .socials li a{
+font-size: 24px;
+color: white;
+margin: 0 10px;
+display: inline-block;
+}
+footer .menu li a{
+    font-size: 0.8em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    }
+.footer{
+    position: relative;
+    background-color: rgb(104, 65, 57);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    color: white;
+    font-size: 0.8em;
+}
