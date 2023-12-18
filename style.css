@@ -39,7 +39,7 @@ body{
     text-decoration: none; 
 }
 
-.nav_links .active li a{
+.nav_links li a:hover{
     font-weight: bolder;
     color: rgb(70, 41, 40);
 }
@@ -71,10 +71,18 @@ height: 12.5px;
 
 .information p{
     justify-content: space-between;
+    margin: 25px;
 }
-.logo{
+
+.logo ul{
+   list-style: none;  
+   display: flex;
+}
+.logo ul li a{
     font-size: 24px;
-    float: right;
+    float: right;   
+    margin: 10px;
+    color: rgb(70, 41, 40);
 }
 
 .below{
