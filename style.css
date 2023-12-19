@@ -107,13 +107,51 @@ height: 12.5px;
 
 .wrapper{display: inline-flex;}
 
-/* Navigation buttons below */
-.button{
+/* Photos */
+.photo{
+    width: 400px;
+    height: 50%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.item{
+    width: fit-content;
+    min-height: min-content;
+}
+.polaroid {
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .polaroid img {
+    max-width: 100%; 
+    margin-bottom: 25px;
+  } 
+
+  .caption {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2em;
+  }
+
+  /* Number and next buttons */
+  .button{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 50px 50px; 
+     padding: 50px 4%;  
+}
+
+.button button{
+    margin: 10px;
 }
 
 .click{
@@ -137,38 +175,6 @@ background-color: transparent;
     width: max-content;
 }
 
-/* Photos */
-.photo{
-    width: 400px;
-    height: 50%;
-}
-
-.left{
-    float: left;
-}
-
-.right{
-    float: right;
-}
-
-.item{
-    width: fit-content;
-    min-height: min-content;
-}
-.polaroid {
-    background: #fff;
-    padding: 1rem;
-  }
-  .polaroid img {
-    max-width: 100%; 
-    margin-bottom: 25px;
-  } 
-
-  .caption {
-    font-size: 1.8rem;
-    text-align: center;
-    line-height: 2em;
-  }
 /* Footer Area */
   .footerContainer{
     position: relative;
