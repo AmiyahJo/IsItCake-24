@@ -140,40 +140,45 @@ height: 12.5px;
     text-align: center;
     line-height: 2em;
   }
-
-  /* Number and next buttons */
-  .button{
+  
+/* Number and next buttons */
+  .buttons{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 50px 4%;  
-}
+    padding: 50px 4%;
+  }
 
-.button button{
-    margin: 10px;
-}
+  .buttons ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
 
-.click{
-background-color: transparent;
+  .buttons ul li a{
+    text-decoration: none;
+    background-color: transparent;
     color: black;
     border: 2px solid rgb(58, 32, 28);
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height:50px;
 }
 
-.click:hover{
+.buttons ul li a:hover{
     background-color: rgb(58, 32, 28);
     color: rgb(243, 230, 226);
 }
 
-.next{
+button{
     background-color: rgb(58, 32, 28);
     border: 2px solid rgb(58, 32, 28);
     float: right;
     color: rgb(243, 230, 226);
     width: max-content;
+    font-size: 15px;
 }
+  
 
 /* Footer Area */
   .footerContainer{
