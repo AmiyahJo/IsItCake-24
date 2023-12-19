@@ -61,6 +61,15 @@ width: 65.5px;
 height: 12.5px;
 }
 
+.topImg{
+    width: fit-content;
+    min-height: min-content;
+}
+.topImg img{
+    width:100%;
+    max-width:1180px;
+}
+
 /* Author info and social media */
 .information {
     display: flex;
