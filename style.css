@@ -39,10 +39,6 @@ body{
     text-decoration: none; 
 }
 
-.nav_links li a:hover{
-    font-weight: bolder;
-    color: rgb(70, 41, 40);
-}
 /* Submission date */
 .Publish_date{
  font-size: 9.5px;   
@@ -134,6 +130,7 @@ height: 12.5px;
     padding: 1rem; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
   .polaroid img {
     max-width: 100%; 
     margin-bottom: 25px;
@@ -166,7 +163,12 @@ height: 12.5px;
     margin-left: 14px;
   }
 
-.click:hover{
+.click:active{
+    background-color: rgb(58, 32, 28);
+    color: rgb(243, 230, 226);
+}
+
+.click:focus{
     background-color: rgb(58, 32, 28);
     color: rgb(243, 230, 226);
 }
@@ -231,4 +233,14 @@ footer .menu li a{
     color: white;
     font-size: 0.8em;
     text-align: center;
+}
+
+.nav_links li a:active{
+    font-weight: bolder;
+    color: rgb(70, 41, 40);
+}
+
+.nav_links li a:focus{
+    font-weight: bolder;
+    color: rgb(70, 41, 40);
 }
