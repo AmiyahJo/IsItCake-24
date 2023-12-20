@@ -115,10 +115,14 @@ height: 12.5px;
 
 .left{
     float: left;
+    margin-right: 20px;
+    padding-bottom: 40px;
 }
 
 .right{
     float: right;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .item{
@@ -127,7 +131,7 @@ height: 12.5px;
 }
 .polaroid {
     background: #fff;
-    padding: 1rem;
+    padding: 1rem; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .polaroid img {
@@ -140,40 +144,37 @@ height: 12.5px;
     text-align: center;
     line-height: 2em;
   }
-  
+
 /* Number and next buttons */
-  .buttons{
+.buttons{
+    margin-left: 500px;
+}
+  .clickWrap{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 50px 4%;
+    padding: 50px;
   }
 
-  .buttons ul li{
-    list-style-type: none;
+  .click{
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 20px;
+    border: 2px solid rgb(58, 32, 28);
+    background-color: transparent;
+    text-align: center;
+    width: 10px;
+    height: 6px;
   }
 
-  .buttons ul li a{
-    text-decoration: none;
-    background-color: transparent;
-    color: black;
-    border: 2px solid rgb(58, 32, 28);
-    width: 50px;
-    height:50px;
-}
-
-.buttons ul li a:hover{
+.click:hover{
     background-color: rgb(58, 32, 28);
     color: rgb(243, 230, 226);
 }
 
-button{
+.next{
     background-color: rgb(58, 32, 28);
     border: 2px solid rgb(58, 32, 28);
-    float: right;
     color: rgb(243, 230, 226);
     width: max-content;
     font-size: 15px;
