@@ -1,6 +1,6 @@
 body{
     color: rgb(70, 41, 40);
-    background-color: rgb(243, 230, 226);
+    background-color: rgb(247, 240, 230);
     font-family: 'Varela Round', sans-serif;
 }
 .main{
@@ -159,12 +159,11 @@ height: 12.5px;
 
   .click{
     display: inline-block;
-    padding: 20px 20px;
+    padding: 10px 15px;
     border: 2px solid rgb(58, 32, 28);
     background-color: transparent;
     text-align: center;
-    width: 10px;
-    height: 6px;
+    margin-left: 14px;
   }
 
 .click:hover{
@@ -173,9 +172,11 @@ height: 12.5px;
 }
 
 .next{
-    background-color: rgb(58, 32, 28);
-    border: 2px solid rgb(58, 32, 28);
-    color: rgb(243, 230, 226);
+    outline: none;
+    border: none;
+    padding: 10px 12px;
+    background-color: rgb(66, 45, 45);
+    color: rgb(247, 240, 230);
     width: max-content;
     font-size: 15px;
 }
@@ -184,13 +185,17 @@ height: 12.5px;
 /* Footer Area */
   .footerContainer{
     position: relative;
-    background-color: rgb(63, 46, 42);
+    background-color: rgb(66, 45, 45);
     min-height: 100px;
     padding: 40px; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  footer .menu{
+    color: rgb(90, 65, 65);
   }
 
   footer .socials, 
@@ -221,7 +226,7 @@ footer .menu li a{
     opacity: 0.75;
     }
 .footerBottom{
-    background-color: rgb(104, 65, 57);
+    background-color: rgb(90, 65, 65);
     padding: 8.5px;
     color: white;
     font-size: 0.8em;
