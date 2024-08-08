@@ -1,0 +1,246 @@
+body{
+    color: rgb(70, 41, 40);
+    background-color: rgb(247, 240, 230);
+    font-family: 'Varela Round', sans-serif;
+}
+.main{
+    padding: 20px 3%;
+}
+
+.subhead::first-letter{
+    initial-letter: 2;
+    font-weight: bold;
+    margin-right: .75em;
+}
+
+/* This is the navigation area */
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+    /* padding: 20px 0.5%;  */
+}
+.Travel{
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav_links {
+    list-style: none;
+  
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    color: darkgray;
+    text-decoration: none; 
+}
+
+/* Submission date */
+.Publish_date{
+ font-size: 9.5px;   
+ display: inline-flex;
+ /* padding: 16px; */
+}
+
+.posted{
+margin-right: 9px;
+color:antiquewhite;
+text-align: center;
+vertical-align: middle; 
+background-color: rgb(58, 32, 28);
+border-radius: 4px;
+width: 65.5px;
+height: 12.5px;
+}
+
+.topImg{
+    width: fit-content;
+    min-height: min-content;
+}
+.topImg img{
+    width:100%;
+    max-width:1180px;
+}
+
+/* Author info and social media */
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 3%; */
+}
+
+.information p{
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.logo ul{
+   list-style: none;  
+   display: flex;
+}
+.logo ul li a{
+    font-size: 24px;
+    float: right;   
+    margin: 10px;
+    color: rgb(70, 41, 40);
+}
+
+.below{
+    background-color: rgb(58, 32, 28);
+    height: 200px;
+}
+
+.below i{
+    color:aliceblue;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper{display: inline-flex;}
+
+/* Photos */
+.photo{
+    width: 400px;
+    height: 50%;
+}
+
+.left{
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
+.right{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.item{
+    width: fit-content;
+    min-height: min-content;
+}
+.polaroid {
+    background: #fff;
+    padding: 1rem; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .polaroid img {
+    max-width: 100%; 
+    margin-bottom: 25px;
+  } 
+
+  .caption {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 2em;
+  }
+
+/* Number and next buttons */
+.buttons{
+    margin-left: 500px;
+}
+  .clickWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+  }
+
+  .click{
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid rgb(58, 32, 28);
+    background-color: transparent;
+    text-align: center;
+    margin-left: 14px;
+  }
+
+.click:active{
+    background-color: rgb(58, 32, 28);
+    color: rgb(243, 230, 226);
+}
+
+.click:focus{
+    background-color: rgb(58, 32, 28);
+    color: rgb(243, 230, 226);
+}
+
+.next{
+    outline: none;
+    border: none;
+    padding: 10px 12px;
+    background-color: rgb(66, 45, 45);
+    color: rgb(247, 240, 230);
+    width: max-content;
+    font-size: 15px;
+}
+  
+
+/* Footer Area */
+  .footerContainer{
+    position: relative;
+    background-color: rgb(66, 45, 45);
+    min-height: 100px;
+    padding: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer .menu{
+    color: rgb(90, 65, 65);
+  }
+
+  footer .socials, 
+  footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 10px 0; 
+    flex-wrap: wrap;
+  }
+footer .socials li,
+footer .menu li{
+    list-style: none;
+}
+footer .socials li a{
+font-size: 24px;
+color: white;
+margin: 0 10px;
+display: inline-block;
+}
+footer .menu li a{
+    font-size: 0.8em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    }
+.footerBottom{
+    background-color: rgb(90, 65, 65);
+    padding: 8.5px;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.nav_links li a:active{
+    font-weight: bolder;
+    color: rgb(70, 41, 40);
+}
+
+.nav_links li a:focus{
+    font-weight: bolder;
+    color: rgb(70, 41, 40);
+}
