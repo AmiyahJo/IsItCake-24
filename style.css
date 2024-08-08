@@ -209,6 +209,7 @@ height: 12.5px;
      margin: 10px 0; 
     flex-wrap: wrap;
   }
+
 footer .socials li,
 footer .menu li{
     list-style: none;
@@ -243,4 +244,10 @@ footer .menu li a{
 .nav_links li a:focus{
     font-weight: bolder;
     color: rgb(70, 41, 40);
+}
+
+.footerBottom a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
 }
